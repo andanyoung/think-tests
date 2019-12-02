@@ -13,10 +13,10 @@ namespace tests;
 //use think\App;
 
 
-abstract class TestCase extends \PHPUnit\Framework\TestCase
+abstract class TestCase
 {
     protected $baseUrl = '';
-    use ApplicationTrait, AssertionsTrait, CrawlerTrait;
+    //  use ApplicationTrait, AssertionsTrait, CrawlerTrait;
 
 //    public function __construct(string $name = null, array $data = [], string $dataName = '')
 //    {
