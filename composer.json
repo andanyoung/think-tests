@@ -16,18 +16,11 @@
     }
   ],
   "require": {
-    "php": ">=7.1.0",
-    "topthink/framework": "5.1.*"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "8"
+    "php": ">=7.1.0"
   },
   "autoload": {
     "psr-4": {
-      "app\\": "application",
-      "tests\\": "tests",
-      "think\\": "thinkphp/library/think",
-      "traits\\": "thinkphp/library/traits"
+      "tests\\": "src"
     }
   }
 }
