@@ -1,0 +1,33 @@
+{
+  "name": "AndyYoungCN/think-tests",
+  "description": "think-tests",
+  "type": "think-framework",
+  "keywords": [
+    "framework",
+    "thinkphp",
+    "unitTest"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/AndyYoungCN/think-tests",
+  "authors": [
+    {
+      "name": "andanyang",
+      "email": "1218853253@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "topthink/framework": "5.1.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "8"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "application",
+      "tests\\": "tests",
+      "think\\": "thinkphp/library/think",
+      "traits\\": "thinkphp/library/traits"
+    }
+  }
+}
