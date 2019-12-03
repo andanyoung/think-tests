@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false">
+    <testsuites>
+        <testsuite name="Application Test Suite">
+            <directory suffix=".php">./tests/</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">application/</directory>
+        </whitelist>
+    </filter>
+    <logging>
+        <log type="coverage-html" target="./runtime/tests/report" lowUpperBound="35"
+             highLowerBound="70"/>
+        <log type="coverage-clover" target="./runtime/tests/coverage.xml"/>
+        <log type="coverage-php" target="./runtime/tests/coverage.serialized"/>
+        <log type="coverage-text" target="php://stdout" showUncoveredFiles="false"/>
+        <log type="junit" target="./runtime/tests/logfile.xml"/>
+        <log type="testdox-html" target="./runtime/tests/testdox.html"/>
+        <log type="testdox-text" target="./runtime/tests/testdox.txt"/>
+    </logging>
+</phpunit>

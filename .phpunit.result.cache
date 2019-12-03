@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":263:{a:2:{s:7:"defects";a:2:{s:39:"tests\unit\TestUser::testBasicFunctions";i:3;s:43:"tests\unit\TestUser::testThinkPHPStyleTests";i:3;}s:5:"times";a:2:{s:39:"tests\unit\TestUser::testBasicFunctions";d:0.005;s:43:"tests\unit\TestUser::testThinkPHPStyleTests";d:0.08;}}}
