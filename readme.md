@@ -3,7 +3,9 @@
 **本项目仅适用于运行 PHP7.2 以上的环境！对于低版本 PHP 请根据需要调整 PHPUnit 的版本！**
 ## 声明
 
-由于原项目 [think-testing](https://github.com/top-think/think-testing) 长久不更新导致无法兼容最新版本的PHP和PHpstrom,无法像java一样进行单元调试。所以在此改造一番。PHPUnit基础请参考[PHPUnit](https://blog.csdn.net/agonie201218/article/details/89675236) 
+由于原项目 [think-testing](https://github.com/top-think/think-testing) 长久不更新导致无法兼容最新版本的PHP和PHpstrom,无法像java一样进行单元调试。所以在此改造一番。
+- PHPUnit基础请参考[PHPUnit](https://blog.csdn.net/agonie201218/article/details/89675236) 
+- [官方文档](http://www.phpunit.cn/)
 
 ### 版本号参考
 
@@ -224,3 +226,5 @@
  ![点击run](./public/image/2EB5FDCA-A09D-4937-9F8D-88A66CEE1498.png)
 ### 3.结果
  ![结果](./public/image/9AEC96A2-545B-4696-947C-74A958BF877A.png)
+ 
+## [欢迎Start]（https://github.com/AndyYoungCN/think-tests）
