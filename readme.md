@@ -1,6 +1,9 @@
 # ThinkPHP 5.1 集成 PHPUnit 8 测试框架
 
 **本项目仅适用于运行 PHP7.2 以上的环境！对于低版本 PHP 请根据需要调整 PHPUnit 的版本！**
+## 声明
+
+由于原项目 [think-testing](https://github.com/top-think/think-testing) 长久不更新导致无法兼容最新版本的PHP和PHpstrom,无法像java一样进行单元调试。所以在此改造一番。PHPUnit基础请参考[PHPUnit](https://blog.csdn.net/agonie201218/article/details/89675236) 
 
 ### 版本号参考
 
@@ -11,10 +14,6 @@
 | 7.0 （已经停止支持）                             | 6            |
 | 5.6 （已经停止支持）                             | 5            |
 | 5.5, 5.4, 5.3 （已经停止支持）                   | 4            |
-
-## 声明
-
-由于原项目 [think-testing](https://github.com/top-think/think-testing) 长久不更新导致无法兼容最新版本的PHP和PHpstrom,所以在此改造一番。 
 
 ## 教程
 
@@ -214,3 +213,14 @@
    ```
 
    并删除 `tests/HttpException.php` 文件
+   
+## 在PhpStorm 中使用单元调试
+### 1. 配置PhpStorm
+1.配置phpunit.phar路径
+2.配置phpunit.xml路径
+3.配置启动文件路径
+ ![配置PhpStorm](./public/image/703997B7-53BD-43a0-BC08-3208959A4ED5.png)
+### 2.点击run
+ ![点击run](./public/image/2EB5FDCA-A09D-4937-9F8D-88A66CEE1498.png)
+### 3.结果
+ ![结果](./public/image/9AEC96A2-545B-4696-947C-74A958BF877A.png)
